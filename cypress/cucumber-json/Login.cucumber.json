@@ -1,0 +1,57 @@
+[
+  {
+    "description": "    To check login functionality for DemoQA Book Store web application",
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;validating-login-functionality-for-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validating Login functionality for valid credentials",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open the URL and User is on login page",
+            "result": {
+              "status": "failed",
+              "duration": 244000000,
+              "error_message": "ReferenceError: LoginPage is not defined\n    at Context.eval (http://localhost:51134/__cypress/tests?p=cypress\\integration\\Login.feature:56:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enters valid username and password and clicks on Login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should navigate to Profile page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
