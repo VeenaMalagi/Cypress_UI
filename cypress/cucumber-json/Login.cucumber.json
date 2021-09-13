@@ -9,13 +9,13 @@
     "uri": "Login.feature",
     "elements": [
       {
-        "id": "login-functionality;validating-login-functionality-for-valid-credentials",
+        "id": "login-functionality;to-validate-whether-login-page-is-displayed-or-not",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Validating Login functionality for valid credentials",
+        "name": "To validate whether Login page is displayed or not",
         "tags": [
           {
-            "name": "@focus",
+            "name": "@Sanity",
             "line": 4
           }
         ],
@@ -28,27 +28,59 @@
             "name": "Open the URL and User is on login page",
             "result": {
               "status": "passed",
-              "duration": 15332000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "User enters valid username and password and clicks on Login button",
-            "result": {
-              "status": "passed",
-              "duration": 5648000000
+              "duration": 12800000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "User should navigate to Profile page",
+            "line": 7,
+            "name": "Login page should be displayed",
             "result": {
               "status": "passed",
-              "duration": 5038000000
+              "duration": 10055000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;to-validate-login-functionality-for-valid-credentials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "To Validate Login functionality for valid credentials",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Open the URL and User is on login page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User enters valid username and password and clicks on Login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should navigate to Profile page",
+            "result": {
+              "status": "skipped"
             }
           }
         ]

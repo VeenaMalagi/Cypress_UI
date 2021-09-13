@@ -5,7 +5,8 @@ export const
 USERNAME= '#userName',
 PASSWORD= '#password',
 LOGIN = '#login',
-LOGOUT = '#submit'
+LOGOUT = '#submit',
+LOGIN_PAGE_NAME='.main-header'
 
 //****    Register Page ****/
 
