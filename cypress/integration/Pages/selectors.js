@@ -4,15 +4,16 @@ export const
 
 USERNAME= '#userName',
 PASSWORD= '#password',
-LOGIN = '#login'
+LOGIN = '#login',
+LOGOUT = '#submit'
 
 //****    Register Page ****/
 
-FIRST_NAME='#input7',
-LASTNAME='#input9',
-EMAIL="#email",
-PASSWORD='#password',
-COUNTRY='#input11 > option'
+//FIRST_NAME='#input7',
+//LASTNAME='#input9',
+//EMAIL="#email",
+//PASSWORD='#password',
+//COUNTRY='#input11 > option'
 
 
 

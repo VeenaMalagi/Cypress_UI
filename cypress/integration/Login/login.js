@@ -29,7 +29,7 @@ When('User enters valid username and password and clicks on Login button',()=>{
             cy.log('User enters username')
             cy.get(selectors.USERNAME).type(LoginPage.USERNAME)  
             cy.log('User enters password')
-            cy.get(selectors.USERNAME).type(LoginPage.PASSWORD) 
+            cy.get(selectors.PASSWORD).type(LoginPage.PASSWORD) 
             cy.log('User clicks on Login button')
             cy.get(selectors.LOGIN).click({force:true})
          
@@ -37,13 +37,12 @@ When('User enters valid username and password and clicks on Login button',()=>{
 })
 
 Then('User should navigate to Profile page',()=>{
-    cy.fixture('Pages_TestData/LoginPage').then(LoginPage => 
-        {
+
             cy.wait(5000) 
             cy.log('User should navigate to Profile page')
             cy.get(selectors.LOGOUT).should('have.text','Log out').and('be.visible')
             
          
-        })
+        
     
 })
