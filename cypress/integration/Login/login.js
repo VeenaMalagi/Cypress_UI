@@ -55,3 +55,25 @@ Then('Login page should be displayed',()=>{
             cy.log("******* Sanity Scenario is completed **************")
              
 })
+
+Then('User should be able to see NewUser button and click on it',()=>{
+    cy.fixture('Pages_TestData/LoginPage').then(LoginPage => 
+        {
+            cy.wait(10000) 
+            cy.log('User is on login page')
+            cy.get(selectors.NEWUSER).click({force:true}) 
+             
+        })
+
+})
+
+
+
+And('After clicking on NewUser button user should navigate to Register page',()=>{
+
+    cy.wait(10000) 
+    cy.log('User has clicked on NewUser button')
+    cy.get(selectors.REGISTER_PAGE_NAME).should('have.text','Register').and('be.visible')
+    cy.log("******* Progression Scenario is completed **************")
+
+})

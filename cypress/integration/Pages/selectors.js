@@ -6,7 +6,9 @@ USERNAME= '#userName',
 PASSWORD= '#password',
 LOGIN = '#login',
 LOGOUT = '#submit',
-LOGIN_PAGE_NAME='.main-header'
+LOGIN_PAGE_NAME='.main-header',
+NEWUSER='#newUser',
+REGISTER_PAGE_NAME='.main-header'
 
 //****    Register Page ****/
 

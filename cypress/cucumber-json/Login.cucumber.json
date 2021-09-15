@@ -11,12 +11,12 @@
       {
         "id": "login-functionality;to-validate-whether-login-page-is-displayed-or-not",
         "keyword": "Scenario",
-        "line": 5,
+        "line": 6,
         "name": "To validate whether Login page is displayed or not",
         "tags": [
           {
             "name": "@Sanity",
-            "line": 4
+            "line": 5
           }
         ],
         "type": "scenario",
@@ -24,21 +24,21 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 7,
             "name": "Open the URL and User is on login page",
             "result": {
               "status": "passed",
-              "duration": 12800000000
+              "duration": 13756000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 8,
             "name": "Login page should be displayed",
             "result": {
               "status": "passed",
-              "duration": 10055000000
+              "duration": 10083000000
             }
           }
         ]
@@ -46,12 +46,12 @@
       {
         "id": "login-functionality;to-validate-login-functionality-for-valid-credentials",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 12,
         "name": "To Validate Login functionality for valid credentials",
         "tags": [
           {
             "name": "@Regression",
-            "line": 9
+            "line": 11
           }
         ],
         "type": "scenario",
@@ -59,28 +59,31 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 13,
             "name": "Open the URL and User is on login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9852000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 14,
             "name": "User enters valid username and password and clicks on Login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 10920000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
+            "line": 15,
             "name": "User should navigate to Profile page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 10123000000
             }
           }
         ]
