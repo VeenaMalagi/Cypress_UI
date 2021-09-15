@@ -1,2 +1,5 @@
 cypress/reports/report.html
 cypress/reports/report.json
+cypress/reports/mocha/report_001.html
+cypress/reports/mocha/report_001.json
+cypress/videos/Login.feature.mp4

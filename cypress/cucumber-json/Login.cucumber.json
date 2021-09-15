@@ -28,7 +28,7 @@
             "name": "Open the URL and User is on login page",
             "result": {
               "status": "passed",
-              "duration": 13756000000
+              "duration": 14326000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Login page should be displayed",
             "result": {
               "status": "passed",
-              "duration": 10083000000
+              "duration": 10052000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "Open the URL and User is on login page",
             "result": {
               "status": "passed",
-              "duration": 9852000000
+              "duration": 10210000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "User enters valid username and password and clicks on Login button",
             "result": {
               "status": "passed",
-              "duration": 10920000000
+              "duration": 10620000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "User should navigate to Profile page",
             "result": {
               "status": "passed",
-              "duration": 10123000000
+              "duration": 10058000000
             }
           }
         ]
