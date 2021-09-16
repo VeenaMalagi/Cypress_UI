@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project is for UI automation using cypress cucumber",
   "main": "index.js",
+  
   "scripts": {
     "tests": "npx cypress run --spec \"**/*.feature\"",
     "delete_reports_folder": "rm -rf cypress/reports",
@@ -11,10 +12,10 @@
     "posttest": "npm run merge_json_reports && npm run generate_mochawesome_report",
     "graph_report": "node cypress\\cucumber-html-report.js",
     
-    "Sanity_test": "npm run delete_reports_folder || npm run Sanity_run && npm run posttest",
+    "Sanity_test": "npm run delete_reports_folder || npm run Sanity_run && npm run posttest",  
     "Regression_test": "npm run delete_reports_folder || npm run Regression_run && npm run posttest",
     
-    "Sanity_run": "cypress run -e TAGS=\"@Sanity\" --spec \"**/*.feature\" --browser=chrome --headless",
+    "Sanity_run": "cypress run -e TAGS=\"@Sanity\" --spec \"**/*.feature\" --browser=chrome --headless", 
     "Regression_run": "cypress run -e TAGS=\"@Regression\" --spec \"**/*.feature\" --browser=chrome --headless",
     
     "cucumber_html_report": "npm run tests && node cypress\\cucumber-html-report.js"
@@ -25,10 +26,12 @@
     "cucumber-html-reporter": "^5.5.0",
     "cypress": "^8.3.1",
     "cypress-cucumber-preprocessor": "^4.2.0",
+    "http-server": "^13.0.2",
     "mocha": "^9.1.1",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "^5.2.0"
+    "mochawesome-report-generator": "^5.2.0",
+    "open": "^8.2.1"
   },
   "dependencies": {},
   "cypress-cucumber-preprocessor": {

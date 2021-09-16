@@ -18,7 +18,8 @@ Given('Open the URL and User is on login page',()=>{
             cy.url().should('include', '/login')
 
         })
-
+    
+        
 })
 
 
