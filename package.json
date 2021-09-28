@@ -6,6 +6,7 @@
   
   "scripts": {
     "tests": "npx cypress run --spec \"**/*.feature\"",
+    
     "delete_reports_folder": "rm -rf cypress/reports",
     "merge_json_reports": "mochawesome-merge cypress/reports/mocha/*.json -o cypress/reports/report.json",
     "generate_mochawesome_report": "marge cypress/reports/report.json --reportDir ./ --inline --charts true",
