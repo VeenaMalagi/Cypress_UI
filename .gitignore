@@ -7,3 +7,5 @@ cypress/reports/mocha/report_002.html
 cypress/reports/mocha/report_003.html
 .gitignore
 cypress/reports/mocha/report_003.json
+cypress/reports/mocha/report.html
+cypress/reports/mocha/report.json
